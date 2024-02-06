@@ -1,0 +1,3 @@
+cd ~/Documents/Git/assetsnew
+echo Generating directory.....
+sh dir.sh -d 2 ~/Documents/Git/assetsnew
