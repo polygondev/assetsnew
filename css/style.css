@@ -46,13 +46,17 @@ header {
 
 /* Grid Styles */
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 20px; /* Adjust spacing as needed */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 /* Box Styles */
 .box {
+    display: inline-block;
+    flex-grow: 1;
+    width: calc(100% * (1/4) - 10px - 1px);
     background-color: #ffffff; 
     padding: 30px;  /* Wide padding */
     border-radius: 12px;
